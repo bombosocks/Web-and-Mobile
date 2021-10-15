@@ -6,7 +6,7 @@ h1 {
 	text-align: center;
 	color: #215B9C;
 	font-size: xx-large;
-	font-style: bold;
+	font-weight: bold;
 }
 
 header {
@@ -34,11 +34,14 @@ span {
 	
 h2 {
 	color: #215B9C;
-	font-style: bold;
+	font-weight: bold;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 	
 .left {
 		float: left;
+		padding-right: 1.5em
 }
 			
 footer {
@@ -47,12 +50,64 @@ footer {
 
 figcaption {
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: larger;
+	font-size: 120%;
 	font-weight: 450;
 	color: #777777;
+	margin: 0em
 }
 
 #image1 {
 	position: relative; /* Declared position allows for location changes */
 	top: -75px; /* Moves the image 2px closer to the top of the page */
+}
+
+p {
+
+	font-size: 100%;
+	font-weight: 300;
+	line-height: normal;
+	margin: 1.5em
+}
+
+.center {
+
+	text-align: center;
+	align-items: center;
+}
+
+.copyright {
+
+	color: #939393;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 85%;
+	text-align: right;
+}
+
+#image1 {
+	width: 128px;  
+	height: 128px;
+}
+
+#image2 {
+
+	width: 300px;
+	height: 150px;
+}
+
+#image3 {
+
+	width: 1024px;
+	height: 198px
+}
+
+#image4 {
+
+	width: 100px;
+	height: 100px;
+}
+
+.rimages {
+
+	height: 200px;
+	width: 300px;
 }
