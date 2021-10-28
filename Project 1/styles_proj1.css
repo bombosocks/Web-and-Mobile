@@ -38,4 +38,10 @@ h3 {
 
 #box {
   background-color: #f3f3f3;
+  padding: 5em;
+}
+
+#logo {
+  width: 10%;
+  height: 5%;
 }
