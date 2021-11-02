@@ -1,0 +1,106 @@
+body {
+    background-color: #222629;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D0D0D0;
+
+}
+  /* unvisited link */
+a:link {
+  color: gray;
+}
+
+/* mouse over link */
+a:hover {
+    color:white;
+}
+
+/* selected link */
+a:active {
+    color: #CD212A;
+}        
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CD212A;
+}
+
+.center {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+.space {
+  padding: 3em;
+}
+
+/* logo and background */
+#box {
+  background-image: url("bar.png");
+}
+
+#logo {
+  width: 20%;
+  height: 9%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Nav */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #CD212A;
+}
+
+/* horizantal images */
+
+.horizim {
+  display: inline-block;
+  margin-left: 5em;
+  margin-right: 5em;
+  height: 20em;
+  width: 10em
+}
+
+#images{
+  text-align:center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
